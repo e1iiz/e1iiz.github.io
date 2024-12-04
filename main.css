@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.checkbox-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 100%;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkbox-container h2 {
+    margin-bottom: 10px;
+}
+.start{
+    width: 180px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.checkbox-container label {
+    display: block;
+    margin: 3px 0;
+    font-size: 25px;
+}
+.checkbox-container input{
+    width: 40px;
+    height: 40px;
+}
+
+.game-container {
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.764);
+    margin-left: 230px; 
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+.ques{
+    font-size: 60px;
+    padding-left: 370px;
+}
+.options{
+    margin-left: 260px;
+}
+.options button {
+    font-size: 50px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.options button.correct {
+    background-color: greenyellow;
+    border-color: green;
+}
+
+.options button.incorrect {
+    background-color: red;
+    color: white;
+}
+.game-container h1{
+    padding-left: 300px;
+    font-size: 60px;
+}
+.true_fals{
+    font-size: 40px;
+    margin-left: 480px;
+    color: #ffff;
+}

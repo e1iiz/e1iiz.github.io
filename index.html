@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица умножения</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="checkbox-container">
+        <h2>Выберите числа</h2>
+        <form id="number-form">
+            <label><input type="checkbox" value="2"> 2</label><br>
+            <label><input type="checkbox" value="3"> 3</label><br>
+            <label><input type="checkbox" value="4"> 4</label><br>
+            <label><input type="checkbox" value="5"> 5</label><br>
+            <label><input type="checkbox" value="6"> 6</label><br>
+            <label><input type="checkbox" value="7"> 7</label><br>
+            <label><input type="checkbox" value="8"> 8</label><br>
+            <label><input type="checkbox" value="9"> 9</label><br>
+        </form>
+        <button class="start" id="start-btn">Начать</button>
+    </div>
+
+    <div class="game-container">
+        <h1>Игра: Таблица умножения</h1>
+        <div id="game-area" class="hidden">
+            <p class="ques" id="question"></p>
+            <div id="options" class="options"></div>
+            <p class="true_fals" id="feedback"></p>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
